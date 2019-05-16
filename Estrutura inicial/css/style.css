@@ -1,0 +1,7 @@
+body {
+    background-color: #fff
+}
+#menu nav ul li a{
+    color:#506a85;
+    text-transform: uppercase;
+}
