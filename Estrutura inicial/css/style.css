@@ -1,7 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,700|Source+Sans+Pro&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,700&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin-ext');
 body {
     background-color: #fff
 }
 #menu nav ul li a{
     color:#506a85;
     text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
 }
+#destaque1 {
+text-align: center;
+padding: 70px 150px 0px 150px; 
+
+}
+#destaque1 h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 700;  
+    font-size: 44px;
+    margin-bottom: 50px;
+    }
+#destaque1 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    color: #73879c;
+}
+#img {
+    float: left;
+}
+#titulos {
+    color: #506a85; 
+}
+#pn {
+    color: #73879c;
+    font-size: 17px;
+}
+
