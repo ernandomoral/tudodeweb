@@ -7,7 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">    
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+ 
+     
 
     <title>Site Programação Web 1 - UNCISAL</title>
   </head>
@@ -66,24 +75,272 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <img src="img/img01web.png" style="width:68px;height:68px;" id="img"/>
-          <h3 id="titulos">Passion</h3>
-          <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
-        </div>
-        <div class="col-sm">
-          <img src="img/img02web.png" style="width:68px;height:68px;"id="img"/>
-          <h3 id="titulos">Creativity</h3>
-          <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
-        </div>
-        <div class="col-sm">
-          <img src="img/img03web.png" style="width:68px;height:68px;" id="img"/>
-          <h3 id="titulos">Quality</h3>
-          <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+          <!--   alinhar imagem com texto  tirando os br -->
+          <table>
+            <tr>
+
+              <td>
+                <img src="img/img01web.png" />
+              </td>
+                
+              <td id="espaço">
+                  <br><br> 
+                  <h3 id="titulos">Passion</h3>
+                <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+              </td>
+
+              <td>
+                  <img src="img/img02web.png" />
+                </td> 
+                <td id="espaço">
+                  <br><br> 
+                  <h3 id="titulos">Creativity</h3>
+                  <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+                </td>
+
+                <td>
+                    <img src="img/img03web.png" />
+                  </td>
+                  <td id="espaço">
+                    <br><br>  
+                      <h3 id="titulos">Quality</h3>
+                    <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+                  </td>
+            </tr>          
+          </table>
+
+              <!--   espaçar mais um pouco    -->
+
+              <!-- bkcolorido -->
+            <div class="container" id=bkcolorido>
+              <div id="destaque1" class="container">
+
+                  <h3>Check out our latest works</h3>
+                  
+                  <p>Mussum Ipsum, cacilds vidis litro abertis, arcu quam euismod magna. 
+                  </p>
+                
+              </div> 
           
-        </div>
-      </div>
-    </div>
-    
+                <!-- / 2 imgs e textos   -->
+             
+                <div class="row">
+                    <div class="col-6">
+                      <img class="card-img-top"
+                        src="img/img001web.png"
+                        alt="Card image cap">
+                  </div>
+
+                      <div class="col-6">
+                        <img class="card-img-top"
+                          src="img/img002web.png"
+                          alt="Card image cap">
+                    </div>
+                    </div>
+                <div class="row" id="pe">
+                    <div class="col-6"  ><b>Grand Motel gets an identity brushup</b></div>
+                    <div class="col-6"  ><b>Fresh branding for a creative startup</b></div>
+                </div> 
+                <div class="row" id="identity">
+                  <div class="col-6"><p text-align="center">Identity</p></div>
+                  <div class="col-6"><p text-align="center">Identity</p></div>
+                </div>
+                
+                <!-- /. 2 imgs e textos -->
+                       
+                      
+               
+              <!--carousel-->
+               
+
+            <div class="container">   
+
+              <div id="multi-item-example" class="carousel slide carousel-multi-item" 
+              data-ride="carousel" data-pause="houver" data-interval="2000" data-wrap="true">
+
+                
+                
+                  <!--Slides-->
+                  <div class="container" id="esp4">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                      <div class="row">
+                      <div class="col-md-3">
+                        
+                          <img class="card-img-top"
+                            src="img/img1d4.png"
+                            alt="Card image cap">
+                      
+                      </div>
+                
+                      <div class="col-md-3">
+                        
+                          <img class="card-img-top"
+                            src="img/img2d4.png"
+                            alt="Card image cap">
+                        
+                      </div>
+                
+                      <div class="col-md-3">
+                        
+                          <img class="card-img-top"
+                            src="img/img3d4.png"
+                            alt="Card image cap">
+                      
+                      </div>
+                      <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img4d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <!--/.First slide-->
+                
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img1d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                  
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img2d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                  
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img3d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                        <div class="col-md-3">
+                            
+                              <img class="card-img-top"
+                                src="img/img4d4.png"
+                                alt="Card image cap">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    <!--/.Second slide-->
+                
+                    <!--Third slide-->
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img1d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                  
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img2d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                  
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img3d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                        <div class="col-md-3">
+                            
+                              <img class="card-img-top"
+                                src="img/img4d4.png"
+                                alt="Card image cap">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    <!--/.Third slide-->
+                    <!--quarto slide-->
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img1d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                  
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img2d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                  
+                        <div class="col-md-3">
+                          
+                            <img class="card-img-top"
+                              src="img/img3d4.png"
+                              alt="Card image cap">
+                          
+                        </div>
+                        <div class="col-md-3">
+                            
+                              <img class="card-img-top"
+                                src="img/img4d4.png"
+                                alt="Card image cap">
+
+                                
+                            
+                          </div>
+                          
+                        </div>
+
+                        
+                      </div>
+
+                    <!--/.quarto slide-->
+                  <!--/.Slides-->  
+            <!---->
+            </div>
+          </div>
+            <!--/.bkcolorido-->
+        </div> 
+
+        
+<div id="espf">
+    <div id="destaque1" class="container">
+
+        <h3>Want to work with us?</h3>
+        
+        <p> Mussum Ipsum, cacilds vidis litro abertis, arcu quam euismod magna, Mussum Ipsum, cacilds vidis litro abertis, arcu quam euismod magna.
+        </p> 
+        <br>
+        <button id="bottom1"type="button" class="btn btn-lg btn-primary"><b>Get in touch</b></button>
+      
+    </div> 
+</div>
+<!--Footer-->
+<div id="footer">
+    <p><i class="material-icons" id="copyright-icon">copyright</i>2014 REEN. All rights reserved.</p>
+ </div>
+ <!--/.Footer-->
+
+
 
     
   </body>
