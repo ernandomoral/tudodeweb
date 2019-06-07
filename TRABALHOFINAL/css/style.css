@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,700|Source+Sans+Pro&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,700&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin-ext');
+
+body {
+    background-color: #fff
+    height: 100%;
+}
+#menu nav ul li a{
+    color:#506a85;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+}
+#destaque1 {
+text-align: center;
+padding: 70px 150px 0px 150px; 
+
+}
+#destaque1 h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 700;  
+    font-size: 44px;
+    margin-bottom: 50px;
+    }
+#destaque1 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    color: #73879c;
+}
+#img {
+    float: left;
+}
+#titulos {
+    color: #506a85; 
+}
+/*paragrafo normal*/
+#pn {
+    color: #73879c;
+    font-size: 17px;
+    text-align: center;
+}
+#espaço {
+    padding: 30px;
+}
+/*espaço img grande*/
+#espaçoimgg {
+    padding: 20px;
+}
+/*paragrafo escuro*/
+#pe {
+    font-size: 21px;
+    color: #506a85;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+p {
+    color: #506a85;
+}
+#identity {
+    color: #73879c;
+    font-size: 17px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+#textcenter {
+   text-align: center;
+}
+/*espaço das 4 imgs pequenas*/
+#marginbot {
+    margin-bottom: 60px;
+}
+}
+/*espaçoda div final*/
+#espf {
+   
+}
+#bottom1 {
+    font-size: 15px;
+    background-color: #00bc9c;
+    margin-bottom: 300px;
+
+}
+/*Footer*/
+#footer{
+    background-color: #283645;
+    width:100%;
+    height: auto;
+    padding: 30px 0px 20px 0px;
+}
+
+#footer p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer #copyright-icon{
+    padding-right: 5px;
+}
+h3 {
+    color: #506a85;
+}
+#imgs4 {
+margin-bottom: 300px;
+
+}
+
+#marginbot {
+    margin-bottom: 50px;
+}
+
+#margintop {
+    margin-top: 50px;
+}
+ #bkcolorido {
+    
+ }
+ #imgs2 {
+     margin-bottom: 50px;
+ }
+ #slide {
+     margin-top: 100px;
+ }
+
+ #divfinal {
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 700;  
+    font-size: 44px;
+    margin-bottom: 200px;
+ }
+ #margintopfinal {
+     margin-top:100px;
+     margin-bottom: 500px;
+ }

@@ -1,0 +1,32 @@
+<table>
+            <tr>
+
+              <td>
+                <img src="img/img01web.png" />
+              </td>
+                
+              <td id="espaço">
+                  <br><br> 
+                  <h3 id="titulos">Passion</h3>
+                <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+              </td>
+
+              <td>
+                  <img src="img/img02web.png" />
+                </td> 
+                <td id="espaço">
+                  <br><br> 
+                  <h3 id="titulos">Creativity</h3>
+                  <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+                </td>
+
+                <td>
+                    <img src="img/img03web.png" />
+                  </td>
+                  <td id="espaço">
+                    <br><br>  
+                      <h3 id="titulos">Quality</h3>
+                    <p id="pn">Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta.</p>
+                  </td>
+            </tr>          
+          </table>
